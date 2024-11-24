@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusive Voice AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/gossip_8922744.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+            <div class="mobile-menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="header">
+        <div class="container">
+            <div class="header-left">
+                <h1>Inclusive <br> Voice Helper <br><span class="highlight">with Impact.</span></h1>
+                <p>
+                    Voice Helper has developed speech recognition for non-standard speech: opening the world of voice technology for people with speech disabilities, aging adults, and accented speakers.
+                    Voice Helper is a stand-alone Web app supporting communication with people and with technology.
+                </p>
+                <div class="header-buttons">
+                    <a href="#transcription" class="button header-button">Start Your Free Trial Today</a>
+                    <a href="#about" class="button learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="images/banner.svg" alt="Banner Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Communication Section -->
+    <section id="transcription" class="transcription-section">
+        <div class="container">
+            <h2>Live Communication</h2>
+            <p>
+                Start speaking to transcribe your speech in real-time. You can also type messages to communicate.
+            </p>
+            <div class="transcription-controls">
+                <button id="start-btn" class="button">Start Transcription</button>
+                <button id="stop-btn" class="button" disabled>Stop Transcription</button>
+            </div>
+            <div class="transcription-output" id="transcription-output">
+                <!-- Transcribed speech and messages will appear here -->
+            </div>
+            <div class="message-input">
+                <textarea id="message-input" rows="3" placeholder="Type your message here..."></textarea>
+                <button id="send-btn" class="button">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Section -->
+    <section id="about" class="voice">
+        <div class="container">
+            <h2>Make your voice products accessible through seamless, customizable API integrations.</h2>
+            <p>
+                Our technology combines state-of-the-art machine learning techniques and Voice Helper's unique,
+                proprietary database of atypical speech patterns. Along with a customized training experience for users,
+                our API is a secure, scalable, production-ready system for a uniquely accessible, intuitive voice experience. Contact <a href="mailto:sales@voicehelper.com">sales@voicehelper.com</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Words Section -->
+    <section class="words">
+        <div class="container">
+            <div class="words-left">
+                <h2>Words Come Alive</h2>
+                <p>
+                    Voice Helper for Chrome is the first accessible speech-to-text input designed by and for people with non-standard speech.
+                    Voice Helper for Chrome requires a Voice Helper account. To request your free 30-day trial of Voice Helper, email <a href="mailto:support@voicehelper.com">support@voicehelper.com</a> today.
+                </p>
+            </div>
+            <div class="words-right">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fY4G9mgHKQs" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section -->
+    <section class="app">
+        <div class="container">
+            <div class="app-left">
+                <h2>The App</h2>
+                <p>
+                    Voice Helper is a stand-alone web application that will work across all of your technology.
+                    After teaching Voice Helper your unique speech, there are three key modes: Speak, Dictate, and Integrations.
+                </p>
+                <p>
+                    <strong>Speak</strong> is speech-to-speech for interacting with others and smart home systems. To use Speak, select “Click to speak”, and speak a short phrase, for example, “Can I have a cup of tea?”. Then select the “Listening: tap to stop” button and Voiceitt will Speak what you said in a clear computerized voice. You can change your voice in the Menu drop-down under Settings. Speak also has a built-in toggle to engage directly with ChatGPT. Go ahead, and ask ChatGPT a question!
+                </p>
+                <p>
+                    <strong>Dictate</strong> is speech-to-text. You can speak a story and let someone read your screen or dictate an email using copy-and-paste or share to another location. Dictate has Voice Control for hands-free editing and navigation, or you can edit the text by typing. Dictate also offers ‘Notes’ to return to a previous message. Dictate can speak by tapping ‘play’ or delete the text on the screen by tapping ‘clear’. To toggle between Dictate and Speak, just tap the ‘Switch Mode’ button.
+                </p>
+                <p>
+                    <strong>Integrations:</strong> From the Menu, Voice Helper empowers personalized closed captioning during video conference calls through WebEx, Microsoft Teams, and soon Zoom(beta) platforms. Coming soon, the Voiceitt Dictate Chrome Extension will enable dictation from your computer, directly into Google Classrooms, Google Workplaces, and beyond.
+                </p>
+                <a href="#contact" class="button">Get Started</a>
+            </div>
+            <div class="app-right">
+                <img src="images/person-having-hearing-issues.jpg" alt="Person with Hearing Issues">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Partner With Us</h2>
+            </div>
+            <div class="contact-right">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="first-name">First name*</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name*</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country*</label>
+                        <input type="text" id="country" name="country" placeholder="Enter your country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="role">I am a*</label>
+                        <select id="role" name="role" required>
+                            <option value="" disabled selected>Please Select</option>
+                            <option value="Partner">Partner</option>
+                            <option value="Customer">Customer</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement">I agree to receive other communications from Voice Helper.</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2024 Voice Helper | Powered by Voice Helper</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
